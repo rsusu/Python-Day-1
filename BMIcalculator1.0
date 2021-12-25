@@ -1,0 +1,9 @@
+
+height = input("enter your height in m: ")
+weight = input("enter your weight in kg: ")
+
+yourHeight = float(height)
+heightpow = 2
+BMI_height = (pow(yourHeight,heightpow))
+youBMI = float(weight) / BMI_height
+print(round(youBMI))
