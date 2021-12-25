@@ -1,0 +1,7 @@
+age = input("What is your current age?")
+
+Cal_Age_Days = 365 * 90 - int(age) * 365 
+Cal_Age_Weeks = 52 * 90 - int(age) * 52
+Cal_Age_Months = 12 * 90 - int(age) * 12
+
+print(f"You have {Cal_Age_Days} days, {Cal_Age_Weeks} weeks, and {Cal_Age_Months} months left.")
